@@ -117,6 +117,9 @@ public:
     static constexpr fixed pi() { return from_fixed_point<61>(7244019458077122842ll); }
     static constexpr fixed half_pi() { return from_fixed_point<62>(7244019458077122842ll); }
     static constexpr fixed two_pi() { return from_fixed_point<60>(7244019458077122842ll); }
+    static constexpr fixed zero() { return from_fixed_point<0>(0); }
+    static constexpr fixed one() { return from_fixed_point<0>(1); }
+    static constexpr fixed two() { return from_fixed_point<0>(2); }
 
     //
     // Arithmetic member operators
